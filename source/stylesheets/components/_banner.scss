@@ -9,13 +9,28 @@
   margin-right: auto;
   display: flex; /* Use flexbox */
   justify-content: space-between; /* Horizontally center the items */
-  align-items: center; /* Vertically center the items */
+  /* Vertically center the items */
   }/* Set the parent container to relative positioning */
 
 
-.about {
+.about-container {
   position: relative;
   font-family: $main-font;
   color: white;
   margin-top: 150px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+}
+
+.about-heading {
+  font-family: $main-font;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.about p {
+  font-family: $main-font;
+  color: white;
 }
