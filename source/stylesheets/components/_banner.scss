@@ -1,3 +1,15 @@
 .banner {
   height: 100vh;
+
 }
+
+.row {
+  position: relative; /* Set the parent container to relative positioning */
+}
+
+.about {
+  position: relative;
+  background-color: white;
+  margin-top: 120px; /* Set the about section to relative positioning */
+}
+
