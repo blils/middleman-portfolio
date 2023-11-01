@@ -3,13 +3,19 @@
 
 }
 
-.row {
-  position: relative; /* Set the parent container to relative positioning */
-}
+.about-row {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex; /* Use flexbox */
+  justify-content: space-between; /* Horizontally center the items */
+  align-items: center; /* Vertically center the items */
+  }/* Set the parent container to relative positioning */
+
 
 .about {
   position: relative;
-  background-color: white;
-  margin-top: 120px; /* Set the about section to relative positioning */
+  font-family: $main-font;
+  color: white;
+  margin-top: 150px;
 }
-
