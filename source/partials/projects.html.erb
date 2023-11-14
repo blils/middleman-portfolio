@@ -1,8 +1,7 @@
-<div class="row my-5">
-  <div class="col-12">
+  <div class="col-12 projects-thing">
     <div class="container">
       <div id="projects">
-        <h2> Projects</h2>
+        <h2 class="generic-headings"> Projects</h2>
         <div class="cards">
           <% data.projects.each do |project| %>
             <div class="card-product">
@@ -15,6 +14,7 @@
                   <% end %>
                 </div>
                 <p><%= project.description %></p>
+                <p><%= project.languages %></p>
               </div>
             </div>
           <% end %>
@@ -22,4 +22,4 @@
       </div>
     </div>
   </div>
-</div>
+

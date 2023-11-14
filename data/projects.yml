@@ -1,19 +1,11 @@
-- name: Longest Word Game
+- name: Dogs For Days
   description: Decent description of the app
-  image: projects/placeholder.png
+  image: projects/dogsfordays.png
   url: https://www.google.com
+  languages: Ruby on Rails, Javascript, HTML, CSS, Bootstrap, Github
 
-- name: Movie Watchlist
+- name: Flip It!
   description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-
-- name: Airbnb
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-
-- name: Final project
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
+  image: projects/flipit.png
+  url: https://www.flip-it.live
+  languages: Ruby on Rails, Javascript, Stimulus, HTML, CSS, Bootstrap, Github
